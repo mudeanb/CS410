@@ -28,4 +28,5 @@ The following pages come from this tutorial
 * delete.php
 * error.php
 
-<i>Note: </i> We placed all the files from the Login tutorial in the php_app directory, along with the error.php file from the CRUD tutorial. The remaining CRUD tutorial files were placed in a sub-directory named employee. As such, the files needed to be modified to change any mentions of config.php or error.php to ../config.php and ../error.php , respectively. The last modification was to copy the section of php code in welcome.php where it checks for a valid session and that you are logged in, to the top of each of the pages in the employee directory.
+### <i>Note: </i> 
+We placed all the files from the Login tutorial in the php_app directory, along with the error.php file from the CRUD tutorial. The remaining CRUD tutorial files were placed in a sub-directory named employee. As such, the files needed to be modified to change any mentions of config.php or error.php to ../config.php and ../error.php , respectively. The last modification was to copy the section of php code in welcome.php where it checks for a valid session and that you are logged in, to the top of each of the pages in the employee directory.
