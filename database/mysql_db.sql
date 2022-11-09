@@ -18,3 +18,17 @@ drop database if exists cs410exdb;
 create database cs410exdb /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin */;
 -- Let's use it and create some db objects
 USE cs410exdb;
+-- Create Users table
+CREATE TABLE users (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+-- Create Employee Table
+CREATE TABLE employees (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    salary INT(10) NOT NULL
+);
